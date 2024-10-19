@@ -1,0 +1,71 @@
+/* Styles chung cho header */
+.body-header-navbar {
+    background-color: #f0f7eb; /* Tông nền nhẹ, dễ nhìn */
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Bóng đổ nhẹ */
+}
+
+/* Logo và tên thương hiệu */
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.brand-name {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #4b8a29;
+    text-decoration: none;
+}
+
+/* Links navbar */
+.nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 15px;
+    color: #4b8a29;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+    background-color: #4b8a29;
+    border-radius: 5px;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transition: opacity 0.3s ease;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #e6ffe0;
+}
+
+/* Responsive cải tiến */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    
+    .navbar-brand {
+        flex: 1;
+        text-align: center;
+    }
+    
+    .brand-name {
+        font-size: 1.6rem;
+    }
+
+    .nav-link {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+}

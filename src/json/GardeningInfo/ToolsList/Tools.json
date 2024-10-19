@@ -1,0 +1,802 @@
+[
+    {
+        "ID": 1,
+        "name": "Hand Trowel",
+        "category": "Hand Tools",
+        "videoUrl": "https://youtu.be/QAgQiSyjnz8?t=22",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-tanged-hand-trowel-p182-31892_image.jpg",
+        "rating": 3.5,
+        "content": [
+            {
+                "description": "The hand trowel is an essential gardening tool, ideal for digging, planting, and transferring soil.",
+                "usage": "Perfect for small gardening tasks such as planting bulbs and digging in tight spaces.",
+                "material": "Typically made from stainless steel with a sturdy wooden or plastic handle for comfort.",
+                "maintenance": "Clean after each use to prevent rust and store in a dry place."
+            }
+        ]
+    },
+    {
+        "ID": 2,
+        "name": "Garden Fork",
+        "category": "Hand Tools",
+        "videoUrl": "https://www.youtube.com/watch?v=vme7Lkvqxxo",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-garden-fork-p182-31893_image.jpg",
+        "rating": 4.75,
+        "content": [
+            {
+                "description": "A garden fork is used for loosening, lifting, and turning over soil.",
+                "usage": "Ideal for breaking up hard soil and mixing in compost.",
+                "material": "Usually made of durable stainless steel with a comfortable handle.",
+                "maintenance": "Rinse and dry after use; check for loose handles."
+            }
+        ]
+    },
+    {
+        "ID": 3,
+        "name": "Pruning Shears",
+        "category": "Cutting Tools",
+        "videoUrl": "https://www.youtube.com/shorts/LwLdYyLIBP4",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-pruning-shears-p182-31894_image.jpg",
+        "rating": 5,
+        "content": [
+            {
+                "description": "Pruning shears are essential for trimming and shaping plants.",
+                "usage": "Best for cutting stems and branches up to ¾ inch thick.",
+                "material": "Made from high-carbon steel for sharpness and durability.",
+                "maintenance": "Keep blades clean and sharp; lubricate joints regularly."
+            }
+        ]
+    },
+    {
+        "ID": 4,
+        "name": "Garden Fork",
+        "category": "Hand Tools",
+        "videoUrl": "https://www.youtube.com/watch?v=arpR7ThrN0Y&pp=ygUSaG93IHRvIGdhcmRlbiBmb3Jr",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-garden-hoe-p182-31895_image.jpg",
+        "rating": 3,
+        "content": [
+            {
+                "description": "A garden hoe is used for breaking up soil and removing weeds.",
+                "usage": "Effective for creating furrows for planting seeds.",
+                "material": "Typically constructed with a solid steel head and a sturdy handle.",
+                "maintenance": "Clean the blade after use to prevent rust."
+            }
+        ]
+    },
+    {
+        "ID": 5,
+        "name": "Watering Can",
+        "category": "Watering Tools",
+        "videoUrl": "https://youtu.be/JGMiBgMGxNc",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-watering-can-p182-31896_image.jpg",
+        "rating": 2,
+        "content": [
+            {
+                "description": "A watering can is essential for watering plants manually.",
+                "usage": "Perfect for indoor and outdoor plants, allowing precise watering.",
+                "material": "Usually made from durable plastic or metal.",
+                "maintenance": "Empty and clean after use; store in a shaded area."
+            }
+        ]
+    },
+    {
+        "ID": 6,
+        "name": "Garden Rake",
+        "category": "Hand Tools",
+        "videoUrl": "https://youtu.be/2ROG-gqf87Q",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-garden-rake-p182-31897_image.jpg",
+        "rating": 2.5,
+        "content": [
+            {
+                "description": "A garden rake is used for leveling soil and collecting debris.",
+                "usage": "Ideal for preparing seed beds and clearing leaves.",
+                "material": "Typically made of steel with a wooden or fiberglass handle.",
+                "maintenance": "Check for loose tines and repair as needed."
+            }
+        ]
+    },
+    {
+        "ID": 7,
+        "name": "Garden Spade",
+        "category": "Hand Tools",
+        "videoUrl": "https://youtu.be/l3prx8pOzz0",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-garden-spade-p182-31898_image.jpg",
+        "rating": 4.5,
+        "content": [
+            {
+                "description": "A garden spade is used for digging and edging.",
+                "usage": "Best for turning over soil and creating clean edges in garden beds.",
+                "material": "Usually made of stainless steel for durability.",
+                "maintenance": "Clean and dry after use; sharpen the edge regularly."
+            }
+        ]
+    },
+    {
+        "ID": 8,
+        "name": "Gloves",
+        "category": "Protective Gear",
+        "videoUrl": "https://youtu.be/c2zLGl1lO4o",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-gardening-gloves-p182-31899_image.jpg",
+        "rating": 4.9,
+        "content": [
+            {
+                "description": "Gardening gloves protect your hands from thorns and dirt.",
+                "usage": "Essential for any gardening task to prevent injuries.",
+                "material": "Made from durable leather or synthetic materials.",
+                "maintenance": "Wash as needed and air dry."
+            }
+        ]
+    },
+    {
+        "ID": 9,
+        "name": "Kneeling Pad",
+        "category": "Protective Gear",
+        "videoUrl": "https://youtu.be/30iEbp_y8mk",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-kneeling-pad-p182-31900_image.jpg",
+        "rating": 4.7,
+        "content": [
+            {
+                "description": "A kneeling pad provides cushioning for your knees while gardening.",
+                "usage": "Helps reduce strain when planting or weeding.",
+                "material": "Typically made from foam or rubber.",
+                "maintenance": "Wipe clean with a damp cloth."
+            }
+        ]
+    },
+    {
+        "ID": 10,
+        "name": "Garden Wheelbarrow",
+        "category": "Transport Tools",
+        "videoUrl": "https://youtu.be/VA0m23-3vbI",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-wheelbarrow-p182-31901_image.jpg",
+        "rating": 3.9,
+        "content": [
+            {
+                "description": "A garden wheelbarrow is essential for transporting soil, plants, and tools.",
+                "usage": "Great for moving heavy loads around the garden.",
+                "material": "Usually constructed with a metal frame and a plastic or metal tub.",
+                "maintenance": "Check tires and lubricate wheels as needed."
+            }
+        ]
+    },
+    {
+        "ID": 11,
+        "name": "Cultivator",
+        "category": "Hand Tools",
+        "videoUrl": "https://youtu.be/cElnRlyH9Z0",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-cultivator-p182-31902_image.jpg",
+        "rating": 4.75,
+        "content": [
+            {
+                "description": "A cultivator is used for breaking up and aerating soil.",
+                "usage": "Ideal for preparing garden beds and loosening compacted soil.",
+                "material": "Typically made of steel with a comfortable handle.",
+                "maintenance": "Clean after use and store in a dry area."
+            }
+        ]
+    },
+    {
+        "ID": 12,
+        "name": "Weeder",
+        "category": "Hand Tools",
+        "videoUrl": "https://youtu.be/5F7RXlgPb_M",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-weeder-p182-31903_image.jpg",
+        "rating": 4.8,
+        "content": [
+            {
+                "description": "A weeder is designed to remove weeds from the garden.",
+                "usage": "Effective for pulling out weeds with roots intact.",
+                "material": "Usually made of stainless steel with a sturdy handle.",
+                "maintenance": "Clean after each use to avoid spreading weed seeds."
+            }
+        ]
+    },
+    {
+        "ID": 13,
+        "name": "Edger",
+        "category": "Hand Tools",
+        "videoUrl": "https://youtu.be/l2YYiYH6g3k",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-edger-p182-31904_image.jpg",
+        "rating": 1.9,
+        "content": [
+            {
+                "description": "An edger is used to create clean edges around garden beds and walkways.",
+                "usage": "Ideal for maintaining a neat and tidy garden.",
+                "material": "Made from durable steel with a comfortable handle.",
+                "maintenance": "Clean the blade after use to maintain sharpness."
+            }
+        ]
+    },
+    {
+        "ID": 14,
+        "name": "Garden Sprayer",
+        "category": "Watering Tools",
+        "videoUrl": "https://youtu.be/fDwb2wM2tq8",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-garden-sprayer-p182-31905_image.jpg",
+        "rating": 4.7,
+        "content": [
+            {
+                "description": "A garden sprayer is used for applying fertilizers and pesticides.",
+                "usage": "Great for evenly distributing liquids over plants.",
+                "material": "Usually made from plastic with a pump mechanism.",
+                "maintenance": "Rinse after each use to prevent clogs."
+            }
+        ]
+    },
+    {
+        "ID": 15,
+        "name": "Hose Reel",
+        "category": "Watering Tools",
+        "videoUrl": "https://youtu.be/URZ1czRf9fs",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-hose-reel-p182-31906_image.jpg",
+        "rating": 3.2,
+        "content": [
+            {
+                "description": "A hose reel is used to store and manage garden hoses.",
+                "usage": "Helps prevent tangles and damage to hoses.",
+                "material": "Usually made from durable plastic or metal.",
+                "maintenance": "Store in a dry place and check for leaks."
+            }
+        ]
+    },
+    {
+        "ID": 16,
+        "name": "Garden Hose",
+        "category": "Watering Tools",
+        "videoUrl": "https://youtu.be/CW_k20D5jlU",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-garden-hose-p182-31907_image.jpg",
+        "rating": 3.3,
+        "content": [
+            {
+                "description": "A garden hose is essential for watering plants and gardens.",
+                "usage": "Allows for easy and efficient watering of large areas.",
+                "material": "Typically made from durable rubber or vinyl.",
+                "maintenance": "Drain after use and store in a cool, dry place."
+            }
+        ]
+    },
+    {
+        "ID": 17,
+        "name": "Drip Irrigation Kit",
+        "category": "Watering Tools",
+        "videoUrl": "https://youtu.be/K6G92hHgGvs",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-drip-irrigation-kit-p182-31908_image.jpg",
+        "rating": 3.4,
+        "content": [
+            {
+                "description": "A drip irrigation kit provides efficient watering directly to plant roots.",
+                "usage": "Great for conserving water while keeping plants hydrated.",
+                "material": "Made from durable plastic tubing and emitters.",
+                "maintenance": "Regularly check for clogs and leaks."
+            }
+        ]
+    },
+    {
+        "ID": 18,
+        "name": "Rain Gauge",
+        "category": "Watering Tools",
+        "videoUrl": "https://youtu.be/UDKDrJH5TPk",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-rain-gauge-p182-31909_image.jpg",
+        "rating": 4.2,
+        "content": [
+            {
+                "description": "A rain gauge measures the amount of rainfall in your garden.",
+                "usage": "Helps you monitor water needs for your plants.",
+                "material": "Usually made from plastic or glass.",
+                "maintenance": "Keep clean for accurate readings."
+            }
+        ]
+    },
+    {
+        "ID": 19,
+        "name": "Soil Moisture Meter",
+        "category": "Watering Tools",
+        "videoUrl": "https://youtu.be/NvYvMu8i4Kg",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-soil-moisture-meter-p182-31910_image.jpg",
+        "rating": 4.9,
+        "content": [
+            {
+                "description": "A soil moisture meter helps determine when to water your plants.",
+                "usage": "Indicates soil moisture levels to prevent overwatering.",
+                "material": "Made from durable plastic and metal probes.",
+                "maintenance": "Clean probes after use to ensure accuracy."
+            }
+        ]
+    },
+    {
+        "ID": 20,
+        "name": "Compost Bin",
+        "category": "Garden Maintenance",
+        "videoUrl": "https://youtu.be/4bBnb1ZGb6U",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-compost-bin-p182-31911_image.jpg",
+        "rating": 5,
+        "content": [
+            {
+                "description": "A compost bin is used for recycling organic waste into compost.",
+                "usage": "Great for creating nutrient-rich soil amendments.",
+                "material": "Usually made from durable plastic or metal.",
+                "maintenance": "Turn compost regularly for aeration."
+            }
+        ]
+    },
+    {
+        "ID": 21,
+        "name": "Garden Gloves",
+        "category": "Protective Gear",
+        "videoUrl": "https://youtu.be/JW_67f8EHTA",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-garden-gloves-p182-31912_image.jpg",
+        "rating": 5,
+        "content": [
+            {
+                "description": "Gardening gloves protect your hands from dirt and injuries.",
+                "usage": "Essential for any gardening tasks.",
+                "material": "Made from various materials, including leather and synthetic fabrics.",
+                "maintenance": "Wash as necessary; air dry."
+            }
+        ]
+    },
+    {
+        "ID": 22,
+        "name": "Garden Kneeler",
+        "category": "Protective Gear",
+        "videoUrl": "https://youtu.be/XxD3oqJyy14",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-garden-kneeler-p182-31913_image.jpg",
+        "rating": 4.8,
+        "content": [
+            {
+                "description": "A garden kneeler provides support while working at ground level.",
+                "usage": "Helps reduce strain on knees and back.",
+                "material": "Usually made from foam or soft cushioning.",
+                "maintenance": "Wipe clean with a damp cloth."
+            }
+        ]
+    },
+    {
+        "ID": 23,
+        "name": "Pruning Saw",
+        "category": "Cutting Tools",
+        "videoUrl": "https://youtu.be/xk1UVm1msag",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-pruning-saw-p182-31914_image.jpg",
+        "rating": 5,
+        "content": [
+            {
+                "description": "A pruning saw is used for cutting larger branches.",
+                "usage": "Ideal for pruning trees and shrubs.",
+                "material": "Made from high-carbon steel for sharpness.",
+                "maintenance": "Clean and oil the blade after use."
+            }
+        ]
+    },
+    {
+        "ID": 24,
+        "name": "Hedge Shears",
+        "category": "Cutting Tools",
+        "videoUrl": "https://youtu.be/HLUeCki1pP0",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-hedge-shears-p182-31915_image.jpg",
+        "rating": 2.2,
+        "content": [
+            {
+                "description": "Hedge shears are designed for shaping and trimming hedges.",
+                "usage": "Best for cutting thick hedges and shrubs.",
+                "material": "Typically made of stainless steel with ergonomic handles.",
+                "maintenance": "Sharpen blades regularly and clean after use."
+            }
+        ]
+    },
+    {
+        "ID": 25,
+        "name": "Lopper",
+        "category": "Cutting Tools",
+        "videoUrl": "https://youtu.be/p2EYUZ1G-0g",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-lopper-p182-31916_image.jpg",
+        "rating": 3.7,
+        "content": [
+            {
+                "description": "Loppers are used for cutting thick branches and stems.",
+                "usage": "Ideal for pruning trees and large shrubs.",
+                "material": "Usually made of high-carbon steel and lightweight materials.",
+                "maintenance": "Keep blades clean and lubricated."
+            }
+        ]
+    },
+    {
+        "ID": 26,
+        "name": "Leaf Blower",
+        "category": "Garden Maintenance",
+        "videoUrl": "https://youtu.be/s9TX2F_PeYI",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-leaf-blower-p182-31917_image.jpg",
+        "rating": 4.6,
+        "content": [
+            {
+                "description": "A leaf blower is used for clearing leaves and debris from lawns.",
+                "usage": "Great for maintaining a tidy garden and pathway.",
+                "material": "Usually made from plastic and metal.",
+                "maintenance": "Clean air filters regularly and check for blockages."
+            }
+        ]
+    },
+    {
+        "ID": 27,
+        "name": "Garden Seeder",
+        "category": "Planting Tools",
+        "videoUrl": "https://youtu.be/eNxGpS6eOl4",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-garden-seeder-p182-31918_image.jpg",
+        "rating": 3.9,
+        "content": [
+            {
+                "description": "A garden seeder is used for planting seeds in rows.",
+                "usage": "Helps ensure even spacing for seeds.",
+                "material": "Typically made from durable plastic.",
+                "maintenance": "Clean after each use to prevent seed clogs."
+            }
+        ]
+    },
+    {
+        "ID": 28,
+        "name": "Seedling Tray",
+        "category": "Planting Tools",
+        "videoUrl": "https://youtu.be/0gpkjNwtYt0",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-seedling-tray-p182-31919_image.jpg",
+        "rating": 4.5,
+        "content": [
+            {
+                "description": "A seedling tray is used for starting seeds indoors.",
+                "usage": "Ideal for nurturing young plants before transplanting.",
+                "material": "Usually made from plastic or biodegradable materials.",
+                "maintenance": "Clean and sterilize between uses."
+            }
+        ]
+    },
+    {
+        "ID": 29,
+        "name": "Transplanting Tool",
+        "category": "Planting Tools",
+        "videoUrl": "https://youtu.be/cAXGABgWTPg",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-transplanting-tool-p182-31920_image.jpg",
+        "rating": 4.9,
+        "content": [
+            {
+                "description": "A transplanting tool is used for moving seedlings to larger pots or garden beds.",
+                "usage": "Helps minimize root disturbance.",
+                "material": "Made from stainless steel or durable plastic.",
+                "maintenance": "Clean after use and store properly."
+            }
+        ]
+    },
+    {
+        "ID": 30,
+        "name": "Garden Cart",
+        "category": "Transport Tools",
+        "videoUrl": "https://youtu.be/T0bxN2rcPlY",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-garden-cart-p182-31921_image.jpg",
+        "rating": 4.7,
+        "content": [
+            {
+                "description": "A garden cart is perfect for transporting tools and plants around the garden.",
+                "usage": "Useful for carrying multiple items at once.",
+                "material": "Usually made from durable plastic or metal.",
+                "maintenance": "Check for any loose parts and clean regularly."
+            }
+        ]
+    },
+    {
+        "ID": 31,
+        "name": "Compost Turner",
+        "category": "Garden Maintenance",
+        "videoUrl": "https://youtu.be/24ZgJm8kmOk",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-compost-turner-p182-31922_image.jpg",
+        "rating": 3.9,
+        "content": [
+            {
+                "description": "A compost turner helps aerate compost piles.",
+                "usage": "Essential for speeding up composting process.",
+                "material": "Made from durable plastic or metal.",
+                "maintenance": "Rinse after use and store in a dry place."
+            }
+        ]
+    },
+    {
+        "ID": 32,
+        "name": "Mulching Fork",
+        "category": "Garden Maintenance",
+        "videoUrl": "https://youtu.be/6aI8tNn1tR0",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-mulching-fork-p182-31923_image.jpg",
+        "rating": 4,
+        "content": [
+            {
+                "description": "A mulching fork is used for applying mulch and turning soil.",
+                "usage": "Ideal for adding organic material to the soil.",
+                "material": "Typically made from stainless steel.",
+                "maintenance": "Clean after use to maintain sharpness."
+            }
+        ]
+    },
+    {
+        "ID": 33,
+        "name": "Soil Test Kit",
+        "category": "Garden Maintenance",
+        "videoUrl": "https://youtu.be/F_C2B0uAu5E",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-soil-test-kit-p182-31924_image.jpg",
+        "rating": 5,
+        "content": [
+            {
+                "description": "A soil test kit measures nutrient levels in your soil.",
+                "usage": "Helps you determine what amendments are needed.",
+                "material": "Includes various testing solutions and tools.",
+                "maintenance": "Store in a cool, dry place."
+            }
+        ]
+    },
+    {
+        "ID": 34,
+        "name": "Garden Tiller",
+        "category": "Garden Maintenance",
+        "videoUrl": "https://youtu.be/vpu3gV6b4Lk",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-garden-tiller-p182-31925_image.jpg",
+        "rating": 5,
+        "content": [
+            {
+                "description": "A garden tiller is used for turning and aerating soil.",
+                "usage": "Ideal for preparing large areas for planting.",
+                "material": "Usually powered by gas or electricity.",
+                "maintenance": "Check oil levels and clean air filters regularly."
+            }
+        ]
+    },
+    {
+        "ID": 35,
+        "name": "Plant Labels",
+        "category": "Planting Tools",
+        "videoUrl": "https://youtu.be/KZ0OXc8zD2I",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-plant-labels-p182-31926_image.jpg",
+        "rating": 4.2,
+        "content": [
+            {
+                "description": "Plant labels help identify different plants in your garden.",
+                "usage": "Useful for organizing plant types and varieties.",
+                "material": "Usually made from durable plastic or wood.",
+                "maintenance": "Check for fading and replace as needed."
+            }
+        ]
+    },
+    {
+        "ID": 36,
+        "name": "Pest Control Sprayer",
+        "category": "Garden Maintenance",
+        "videoUrl": "https://youtu.be/dG47TPAXih8",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-pest-control-sprayer-p182-31927_image.jpg",
+        "rating": 3.3,
+        "content": [
+            {
+                "description": "A pest control sprayer is used for applying pesticides.",
+                "usage": "Helps protect plants from harmful insects.",
+                "material": "Typically made from durable plastic.",
+                "maintenance": "Clean thoroughly after each use."
+            }
+        ]
+    },
+    {
+        "ID": 37,
+        "name": "Garden Knife",
+        "category": "Cutting Tools",
+        "videoUrl": "https://youtu.be/dLP-pqD_1yI",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-garden-knife-p182-31928_image.jpg",
+        "rating": 5,
+        "content": [
+            {
+                "description": "A garden knife is versatile for various cutting tasks.",
+                "usage": "Great for cutting twine, stems, and dividing plants.",
+                "material": "Usually made of stainless steel.",
+                "maintenance": "Keep the blade clean and sharp."
+            }
+        ]
+    },
+    {
+        "ID": 38,
+        "name": "Garden Scissors",
+        "category": "Cutting Tools",
+        "videoUrl": "https://youtu.be/LujHEOY7H2M",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-garden-scissors-p182-31929_image.jpg",
+        "rating": 4,
+        "content": [
+            {
+                "description": "Garden scissors are perfect for fine trimming.",
+                "usage": "Ideal for herbs and delicate plants.",
+                "material": "Made from stainless steel for durability.",
+                "maintenance": "Keep clean and sharpen regularly."
+            }
+        ]
+    },
+    {
+        "ID": 39,
+        "name": "Garden Pitchfork",
+        "category": "Hand Tools",
+        "videoUrl": "https://youtu.be/cikZP7WhT7o",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-garden-pitchfork-p182-31930_image.jpg",
+        "rating": 4,
+        "content": [
+            {
+                "description": "A garden pitchfork is used for turning and aerating soil.",
+                "usage": "Great for breaking up compacted soil.",
+                "material": "Usually made from durable steel.",
+                "maintenance": "Clean after use to maintain condition."
+            }
+        ]
+    },
+    {
+        "ID": 40,
+        "name": "Spading Fork",
+        "category": "Hand Tools",
+        "videoUrl": "https://youtu.be/q56b97-EEio",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-spading-fork-p182-31931_image.jpg",
+        "rating": 5,
+        "content": [
+            {
+                "description": "A spading fork is ideal for breaking up soil and compost.",
+                "usage": "Useful for planting and mixing soil.",
+                "material": "Made from stainless steel for durability.",
+                "maintenance": "Rinse after use and keep clean."
+            }
+        ]
+    },
+    {
+        "ID": 41,
+        "name": "Weeder",
+        "category": "Hand Tools",
+        "videoUrl": "https://youtu.be/KfS07FUdDQc",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-weeder-p182-31932_image.jpg",
+        "rating": 3,
+        "content": [
+            {
+                "description": "A weeder is designed to remove weeds from the garden.",
+                "usage": "Helps keep your garden tidy and healthy.",
+                "material": "Usually made from stainless steel.",
+                "maintenance": "Clean after use to maintain sharpness."
+            }
+        ]
+    },
+    {
+        "ID": 42,
+        "name": "Cultivator",
+        "category": "Hand Tools",
+        "videoUrl": "https://youtu.be/1VdKhD3HQGA",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-cultivator-p182-31933_image.jpg",
+        "rating": 5,
+        "content": [
+            {
+                "description": "A cultivator is used to break up and aerate soil.",
+                "usage": "Ideal for preparing garden beds.",
+                "material": "Made from durable stainless steel.",
+                "maintenance": "Keep clean and store in a dry place."
+            }
+        ]
+    },
+    {
+        "ID": 43,
+        "name": "Rake",
+        "category": "Garden Maintenance",
+        "videoUrl": "https://youtu.be/0Ol_N_D6Y6E",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-rake-p182-31934_image.jpg",
+        "rating": 3.3,
+        "content": [
+            {
+                "description": "A rake is used for leveling soil and collecting debris.",
+                "usage": "Great for maintaining a neat garden.",
+                "material": "Usually made from durable plastic or metal.",
+                "maintenance": "Clean after use and store in a dry place."
+            }
+        ]
+    },
+    {
+        "ID": 44,
+        "name": "Garden Hoe",
+        "category": "Garden Maintenance",
+        "videoUrl": "https://youtu.be/1ja0fOXIh4g",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-garden-hoe-p182-31935_image.jpg",
+        "rating": 4.6,
+        "content": [
+            {
+                "description": "A garden hoe is used for weeding and cultivating soil.",
+                "usage": "Essential for maintaining garden beds.",
+                "material": "Usually made from stainless steel.",
+                "maintenance": "Keep blade sharp and clean after use."
+            }
+        ]
+    },
+    {
+        "ID": 45,
+        "name": "Bonsai Shears",
+        "category": "Cutting Tools",
+        "videoUrl": "https://youtu.be/Y0fbY_EZmDA",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-bonsai-shears-p182-31936_image.jpg",
+        "rating": 4.4,
+        "content": [
+            {
+                "description": "Bonsai shears are used for shaping and trimming bonsai trees.",
+                "usage": "Ideal for precision cutting and styling.",
+                "material": "Made from high-quality stainless steel.",
+                "maintenance": "Clean and sharpen regularly for best results."
+            }
+        ]
+    },
+    {
+        "ID": 46,
+        "name": "Garden Scythe",
+        "category": "Cutting Tools",
+        "videoUrl": "https://youtu.be/wE0tTnWqOKU",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-garden-scythe-p182-31937_image.jpg",
+        "rating": 4.4,
+        "content": [
+            {
+                "description": "A garden scythe is used for cutting grass and tall weeds.",
+                "usage": "Effective for larger areas and heavy growth.",
+                "material": "Typically made from stainless steel and wood.",
+                "maintenance": "Keep blade sharp and clean after use."
+            }
+        ]
+    },
+    {
+        "ID": 47,
+        "name": "Garden Auger",
+        "category": "Planting Tools",
+        "videoUrl": "https://youtu.be/fDFpTAU3s5o",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-garden-auger-p182-31938_image.jpg",
+        "rating": 5,
+        "content": [
+            {
+                "description": "A garden auger is used for drilling holes for planting.",
+                "usage": "Ideal for bulbs and small plants.",
+                "material": "Made from durable steel.",
+                "maintenance": "Clean after use and keep dry."
+            }
+        ]
+    },
+    {
+        "ID": 48,
+        "name": "Weed Torch",
+        "category": "Garden Maintenance",
+        "videoUrl": "https://youtu.be/ulOo3yfGzU0",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-weed-torch-p182-31939_image.jpg",
+        "rating": 4,
+        "content": [
+            {
+                "description": "A weed torch is used for controlling weeds with heat.",
+                "usage": "Great for eco-friendly weed control.",
+                "material": "Usually made from metal with a handle.",
+                "maintenance": "Clean the nozzle regularly to maintain performance."
+            }
+        ]
+    },
+    {
+        "ID": 49,
+        "name": "Garden Fork",
+        "category": "Hand Tools",
+        "videoUrl": "https://youtu.be/YFTu2J9MBHo",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-garden-fork-p182-31940_image.jpg",
+        "rating": 4,
+        "content": [
+            {
+                "description": "A garden fork is used for turning and aerating soil.",
+                "usage": "Useful for breaking up compacted soil.",
+                "material": "Typically made from durable steel.",
+                "maintenance": "Clean after use to maintain condition."
+            }
+        ]
+    },
+    {
+        "ID": 50,
+        "name": "Garden Spade",
+        "category": "Hand Tools",
+        "videoUrl": "https://youtu.be/94Dnm8C2U4I",
+        "imgUrl": "https://www.gardenstreet.co.uk/images/bulldog-premier-garden-spade-p182-31941_image.jpg",
+        "rating": 5,
+        "content": [
+            {
+                "description": "A garden spade is used for digging and edging.",
+                "usage": "Essential for planting and garden maintenance.",
+                "material": "Made from stainless steel.",
+                "maintenance": "Keep clean and dry to prevent rust."
+            }
+        ]
+    }
+]

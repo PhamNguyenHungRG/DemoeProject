@@ -1,0 +1,388 @@
+[
+    {
+      "id": 1,
+      "name": "Rice",
+      "category": "Cereal",
+      "imgUrl": "https://file3.qdnd.vn/data/images/0/2024/06/04/upload_2324/a9a4edf8e9320519665076a16942bd39.jpg?dpi=150&quality=100&w=870",
+      "videoUrl": "https://www.youtube.com/watch?v=nbZKd2YbnSE",
+      "description": {
+        "Information": "Rice is a staple food in many countries.",
+        "instruct": "Soak the seeds in warm water for 8-12 hours, then sow into moist soil."
+      }
+    },
+    {
+      "id": 2,
+      "name": "Corn",
+      "category": "Cereal",
+      "imgUrl": "https://product.hstatic.net/200000491621/product/seeds-sweet-corn-wooden-table__1__2826d5e7cc2c4a8a81a651349c99fe30_master.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=RW_GpNciIuA",
+      "description": {
+        "Information": "Corn is a popular crop that provides food for humans and animals.",
+        "instruct": "Soak corn seeds in warm water for 6-8 hours, then sow them about 2-3 cm deep."
+      }
+    },
+    {
+      "id": 3,
+      "name": "Potato",
+      "category": "Cereal",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd2cQMUYQstQZ3cF0xx2vcld98c8tK_-e8Yw&s",
+      "videoUrl": "https://www.youtube.com/watch?v=7RyaApbwsW8",
+      "description": {
+        "Information": "Potatoes are a rich source of starch.",
+        "instruct": "Cut seed potatoes into pieces, then plant them in loose soil."
+      }
+    },
+    {
+      "id": 4,
+      "name": "Carolina Reaper",
+      "category": "Cereal",
+      "imgUrl": "https://www.cylonies.com/storage/coconut-milk-powder/carolina-reaper.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=rxDLY7ZkxHk",
+      "description": {
+        "Information": "Cassava is a tropical crop that provides starch.",
+        "instruct": "Plant cassava cuttings by placing them in the soil."
+      }
+    },
+    {
+      "id": 5,
+      "name": "Beans",
+      "category": "Cereal",
+      "imgUrl": "https://www.seriouseats.com/thmb/SQMFmTcY4nb4m0NwUn3q9zHTv5U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2016__01__20160106-beans-vicky-wasik-1-a0dc8474c296464ab00848714950c746.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=-rYy8-W00hU",
+      "description": {
+        "Information": "Beans are rich in protein and nutrients.",
+        "instruct": "Sow bean seeds in moist soil, ensuring adequate light and regular watering."
+      }
+    },
+    {
+      "id": 6,
+      "name": "Leafy Greens",
+      "category": "Vegetable",
+      "imgUrl": "https://images.squarespace-cdn.com/content/v1/5dbec0afbde55b468ed1229e/1600444506112-A5NPINZS6Y4KKEEDP3JK/leafy-greens-for-dogs.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=jEt_120VEAM",
+      "description": {
+        "Information": "Leafy greens are a popular vegetable rich in nutrients.",
+        "instruct": "Sow seeds in moist soil, water daily, and expect germination in 3-5 days."
+      }
+    },
+    {
+      "id": 7,
+      "name": "Water Spinach",
+      "category": "Vegetable",
+      "imgUrl": "https://avi.org.vn/images/hat-giong-rau.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=WiigLBvINHA",
+      "description": {
+        "Information": "Water spinach is a common vegetable in Vietnam.",
+        "instruct": "Sow water spinach seeds directly into the soil and water daily."
+      }
+    },
+    {
+      "id": 8,
+      "name": "Carrot",
+      "category": "Vegetable",
+      "imgUrl": "https://example.com/carrot.jpg",
+      "videoUrl": "https://example.com/carrot-video.mp4",
+      "description": {
+        "Information": "Carrots are rich in vitamin A and fiber.",
+        "instruct": "Sow carrot seeds about 1 cm deep in the soil and water regularly."
+      }
+    },
+    {
+      "id": 9,
+      "name": "Cabbage",
+      "category": "Vegetable",
+      "imgUrl": "https://example.com/cabbage.jpg",
+      "videoUrl": "https://example.com/cabbage-video.mp4",
+      "description": {
+        "Information": "Cabbage is a common vegetable in everyday dishes.",
+        "instruct": "Sow cabbage seeds in nutrient-rich soil and water regularly."
+      }
+    },
+    {
+      "id": 10,
+      "name": "Amaranth",
+      "category": "Vegetable",
+      "imgUrl": "https://example.com/amaranth.jpg",
+      "videoUrl": "https://example.com/amaranth-video.mp4",
+      "description": {
+        "Information": "Amaranth is easy to grow and rich in vitamins and minerals.",
+        "instruct": "Sow amaranth seeds in loose soil and water daily."
+      }
+    },
+    {
+      "id": 11,
+      "name": "Mango",
+      "category": "Fruit",
+      "imgUrl": "https://example.com/mango.jpg",
+      "videoUrl": "https://example.com/mango-video.mp4",
+      "description": {
+        "Information": "Mango is a tropical fruit rich in vitamins.",
+        "instruct": "Remove the mango seed husk, sow it in moist soil, and ensure ample sunlight."
+      }
+    },
+    {
+      "id": 12,
+      "name": "Avocado",
+      "category": "Fruit",
+      "imgUrl": "https://example.com/avocado.jpg",
+      "videoUrl": "https://example.com/avocado-video.mp4",
+      "description": {
+        "Information": "Avocado is a fruit rich in healthy fats and nutrients.",
+        "instruct": "Place the avocado seed in water until it sprouts, then plant it in soil."
+      }
+    },
+    {
+      "id": 13,
+      "name": "Lemon",
+      "category": "Fruit",
+      "imgUrl": "https://example.com/lemon.jpg",
+      "videoUrl": "https://example.com/lemon-video.mp4",
+      "description": {
+        "Information": "Lemons are a fruit that provides high vitamin C.",
+        "instruct": "Sow lemon seeds in soil, place in a well-lit area, and water regularly."
+      }
+    },
+    {
+      "id": 14,
+      "name": "Watermelon",
+      "category": "Fruit",
+      "imgUrl": "https://example.com/watermelon.jpg",
+      "videoUrl": "https://example.com/watermelon-video.mp4",
+      "description": {
+        "Information": "Watermelon is a summer fruit with a high water content.",
+        "instruct": "Sow watermelon seeds in soil, water regularly, and place in bright sunlight."
+      }
+    },
+    {
+      "id": 15,
+      "name": "Jackfruit",
+      "category": "Fruit",
+      "imgUrl": "https://example.com/jackfruit.jpg",
+      "videoUrl": "https://example.com/jackfruit-video.mp4",
+      "description": {
+        "Information": "Jackfruit is a tropical fruit with a sweet flavor.",
+        "instruct": "Sow jackfruit seeds directly in the soil; the plants thrive in a moist environment."
+      }
+    },
+    {
+      "id": 16,
+      "name": "Rose",
+      "category": "Flower",
+      "imgUrl": "https://example.com/rose.jpg",
+      "videoUrl": "https://example.com/rose-video.mp4",
+      "description": {
+        "Information": "Roses symbolize love and beauty.",
+        "instruct": "Soak rose seeds in warm water, then sow in soil and keep moist."
+      }
+    },
+    {
+      "id": 17,
+      "name": "Chrysanthemum",
+      "category": "Flower",
+      "imgUrl": "https://example.com/chrysanthemum.jpg",
+      "videoUrl": "https://example.com/chrysanthemum-video.mp4",
+      "description": {
+        "Information": "Chrysanthemums are often used for festivals and decoration.",
+        "instruct": "Sow chrysanthemum seeds directly into the soil, water daily, and keep moist."
+      }
+    },
+    {
+      "id": 18,
+      "name": "Orchid",
+      "category": "Flower",
+      "imgUrl": "https://example.com/orchid.jpg",
+      "videoUrl": "https://example.com/orchid-video.mp4",
+      "description": {
+        "Information": "Orchids symbolize elegance.",
+        "instruct": "Sow orchid seeds in a cool environment, and water lightly."
+      }
+    },
+    {
+      "id": 19,
+      "name": "Lotus",
+      "category": "Flower",
+      "imgUrl": "https://example.com/lotus.jpg",
+      "videoUrl": "https://example.com/lotus-video.mp4",
+      "description": {
+        "Information": "Lotus symbolizes purity and innocence.",
+        "instruct": "Sow lotus seeds in water, suitable for ponds."
+      }
+    },
+    {
+      "id": 20,
+      "name": "Sunflower",
+      "category": "Flower",
+      "imgUrl": "https://example.com/sunflower.jpg",
+      "videoUrl": "https://example.com/sunflower-video.mp4",
+      "description": {
+        "Information": "Sunflowers are bright yellow, symbolizing faith.",
+        "instruct": "Sow sunflower seeds directly into the soil, water regularly, and place in sunlight."
+      }
+    },
+    {
+      "id": 21,
+      "name": "Celosia",
+      "category": "Flower",
+      "imgUrl": "https://example.com/celosia.jpg",
+      "videoUrl": "https://example.com/celosia-video.mp4",
+      "description": {
+        "Information": "Celosia flowers have bright colors and unique shapes.",
+        "instruct": "Sow celosia seeds in well-drained soil, water lightly."
+      }
+    },
+    {
+      "id": 22,
+      "name": "Carnation",
+      "category": "Flower",
+      "imgUrl": "https://example.com/carnation.jpg",
+      "videoUrl": "https://example.com/carnation-video.mp4",
+      "description": {
+        "Information": "Carnations symbolize love and fascination.",
+        "instruct": "Sow seeds in nutrient-rich soil, water regularly, and ensure good drainage."
+      }
+    },
+    {
+      "id": 23,
+      "name": "Basil",
+      "category": "Herb",
+      "imgUrl": "https://example.com/basil.jpg",
+      "videoUrl": "https://example.com/basil-video.mp4",
+      "description": {
+        "Information": "Basil is a common herb used in cooking.",
+        "instruct": "Sow basil seeds in moist soil, water regularly, and ensure sunlight."
+      }
+    },
+    {
+      "id": 24,
+      "name": "Mint",
+      "category": "Herb",
+      "imgUrl": "https://example.com/mint.jpg",
+      "videoUrl": "https://example.com/mint-video.mp4",
+      "description": {
+        "Information": "Mint is fragrant and commonly used in tea and desserts.",
+        "instruct": "Sow mint seeds in well-drained soil and water regularly."
+      }
+    },
+    {
+      "id": 25,
+      "name": "Thyme",
+      "category": "Herb",
+      "imgUrl": "https://example.com/thyme.jpg",
+      "videoUrl": "https://example.com/thyme-video.mp4",
+      "description": {
+        "Information": "Thyme is a versatile herb used in many cuisines.",
+        "instruct": "Sow thyme seeds in light soil, keep it moist, and ensure sunlight."
+      }
+    },
+    {
+      "id": 26,
+      "name": "Rosemary",
+      "category": "Herb",
+      "imgUrl": "https://example.com/rosemary.jpg",
+      "videoUrl": "https://example.com/rosemary-video.mp4",
+      "description": {
+        "Information": "Rosemary is known for its aromatic flavor.",
+        "instruct": "Sow rosemary seeds in dry soil, and ensure sunlight."
+      }
+    },
+    {
+      "id": 27,
+      "name": "Oregano",
+      "category": "Herb",
+      "imgUrl": "https://example.com/oregano.jpg",
+      "videoUrl": "https://example.com/oregano-video.mp4",
+      "description": {
+        "Information": "Oregano is often used in Italian cuisine.",
+        "instruct": "Sow oregano seeds in well-drained soil and water lightly."
+      }
+    },
+    {
+      "id": 28,
+      "name": "Cilantro",
+      "category": "Herb",
+      "imgUrl": "https://example.com/cilantro.jpg",
+      "videoUrl": "https://example.com/cilantro-video.mp4",
+      "description": {
+        "Information": "Cilantro adds flavor to many dishes.",
+        "instruct": "Sow cilantro seeds in light soil and water regularly."
+      }
+    },
+    {
+      "id": 29,
+      "name": "Chili Pepper",
+      "category": "Spice",
+      "imgUrl": "https://example.com/chili.jpg",
+      "videoUrl": "https://example.com/chili-video.mp4",
+      "description": {
+        "Information": "Chili peppers add heat to various dishes.",
+        "instruct": "Sow chili seeds in well-drained soil and keep warm."
+      }
+    },
+    {
+      "id": 30,
+      "name": "Garlic",
+      "category": "Spice",
+      "imgUrl": "https://example.com/garlic.jpg",
+      "videoUrl": "https://example.com/garlic-video.mp4",
+      "description": {
+        "Information": "Garlic is used for flavor and health benefits.",
+        "instruct": "Plant garlic cloves in loose soil, pointy side up."
+      }
+    },
+    {
+      "id": 31,
+      "name": "Ginger",
+      "category": "Spice",
+      "imgUrl": "https://example.com/ginger.jpg",
+      "videoUrl": "https://example.com/ginger-video.mp4",
+      "description": {
+        "Information": "Ginger adds flavor and has medicinal properties.",
+        "instruct": "Sow ginger rhizomes in moist soil, keeping them warm and well-drained."
+      }
+    },
+    {
+      "id": 32,
+      "name": "Turmeric",
+      "category": "Spice",
+      "imgUrl": "https://example.com/turmeric.jpg",
+      "videoUrl": "https://example.com/turmeric-video.mp4",
+      "description": {
+        "Information": "Turmeric is known for its health benefits and flavor.",
+        "instruct": "Plant turmeric rhizomes in moist soil, keep them warm, and water regularly."
+      }
+    },
+    {
+      "id": 33,
+      "name": "Cumin",
+      "category": "Spice",
+      "imgUrl": "https://example.com/cumin.jpg",
+      "videoUrl": "https://example.com/cumin-video.mp4",
+      "description": {
+        "Information": "Cumin seeds add flavor to various dishes.",
+        "instruct": "Sow cumin seeds in light soil and keep it moist."
+      }
+    },
+    {
+      "id": 34,
+      "name": "Saffron",
+      "category": "Spice",
+      "imgUrl": "https://example.com/saffron.jpg",
+      "videoUrl": "https://example.com/saffron-video.mp4",
+      "description": {
+        "Information": "Saffron is a valuable spice used in many cuisines.",
+        "instruct": "Sow saffron corms in well-drained soil, water lightly."
+      }
+    },
+    {
+      "id": 35,
+      "name": "Fennel",
+      "category": "Spice",
+      "imgUrl": "https://example.com/fennel.jpg",
+      "videoUrl": "https://example.com/fennel-video.mp4",
+      "description": {
+        "Information": "Fennel has a distinct flavor and is used in various dishes.",
+        "instruct": "Sow fennel seeds in rich soil and keep it moist."
+      }
+    }
+  ]
+  

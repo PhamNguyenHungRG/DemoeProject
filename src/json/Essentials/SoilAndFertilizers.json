@@ -1,0 +1,407 @@
+{
+    "soil": [
+      {
+        "id": 1,
+        "name": "Potting Soil",
+        "description": "Nutrient-rich soil suitable for all types of plants. Ideal for container gardening, it retains moisture and provides essential nutrients.",
+        "benefits": "Great for growing vegetables, herbs, and flowering plants.",
+        "usage": "Use it for potted plants or raised beds.",
+        "tips": "Mix with perlite or vermiculite for better drainage.",
+        "careInstructions": "Keep the soil moist but not soggy; check regularly.",
+        "image": "https://www.gardendesign.com/pictures/images/900x705Max/site_3/potting-soil-potting-soil-in-pot-dirt-in-pot-shutterstock-com_15947.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Organic Soil",
+        "description": "Natural soil, safe for plants and the environment. Contains no synthetic chemicals and is enriched with organic matter.",
+        "benefits": "Promotes healthy plant growth and improves soil structure.",
+        "usage": "Best for organic gardening practices.",
+        "tips": "Add compost regularly to enrich the soil.",
+        "careInstructions": "Avoid using chemical pesticides; maintain moisture.",
+        "image": "https://5.imimg.com/data5/EE/XV/MY-26063452/organic-soil-compost.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Cactus Soil",
+        "description": "Specially formulated soil for cactus and succulent plants. Drains quickly to prevent root rot.",
+        "benefits": "Prevents overwatering and encourages healthy growth.",
+        "usage": "Use for potted cacti and succulents.",
+        "tips": "Water sparingly; allow soil to dry out between waterings.",
+        "careInstructions": "Keep in bright light for best results.",
+        "image": "https://cdn.shopify.com/s/files/1/0968/5384/files/Cactus-best-soil-jpj_1200x600.jpg?v=1711195617"
+      },
+      {
+        "id": 4,
+        "name": "Seed Starting Mix",
+        "description": "Light and fluffy soil ideal for germinating seeds. Provides a perfect environment for seedling growth.",
+        "benefits": "Promotes strong root development and healthy seedlings.",
+        "usage": "Use for starting seeds indoors or outdoors.",
+        "tips": "Keep the mix moist but not waterlogged.",
+        "careInstructions": "Provide adequate light once seedlings emerge.",
+        "image": "https://example.com/path/to/seed-starting-mix-image.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Garden Soil",
+        "description": "Balanced soil suitable for most garden plants. Contains a mix of clay, sand, and organic matter.",
+        "benefits": "Supports a variety of flowers, vegetables, and shrubs.",
+        "usage": "Use for planting directly in garden beds.",
+        "tips": "Test soil pH for optimal plant growth.",
+        "careInstructions": "Regularly amend with organic matter.",
+        "image": "https://example.com/path/to/garden-soil-image.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Compost Soil",
+        "description": "Rich, dark soil made from decomposed organic matter. Excellent for improving soil fertility.",
+        "benefits": "Enhances soil structure and moisture retention.",
+        "usage": "Mix into existing soil or use as top dressing.",
+        "tips": "Use homemade compost for best results.",
+        "careInstructions": "Keep moist and aerated to maintain microbial activity.",
+        "image": "https://example.com/path/to/compost-soil-image.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Peat Moss",
+        "description": "Organic material harvested from peat bogs. Improves moisture retention and soil aeration.",
+        "benefits": "Lightens heavy soils and retains moisture.",
+        "usage": "Mix with soil or use in potting mixtures.",
+        "tips": "Wet before using to make it easier to work with.",
+        "careInstructions": "Store in a cool, dry place.",
+        "image": "https://example.com/path/to/peat-moss-image.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Topsoil",
+        "description": "The uppermost layer of soil, rich in nutrients. Used for general gardening and landscaping.",
+        "benefits": "Improves soil quality and provides essential nutrients.",
+        "usage": "Use for leveling or as a base for planting.",
+        "tips": "Can be mixed with compost for added nutrients.",
+        "careInstructions": "Avoid compaction; keep loose for healthy root growth.",
+        "image": "https://example.com/path/to/topsoil-image.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Clay Soil",
+        "description": "Dense soil that retains water and nutrients well. Best for moisture-loving plants.",
+        "benefits": "Holds nutrients effectively but may drain poorly.",
+        "usage": "Use for plants that prefer moist conditions.",
+        "tips": "Mix with sand to improve drainage if necessary.",
+        "careInstructions": "Regularly check for waterlogged conditions.",
+        "image": "https://example.com/path/to/clay-soil-image.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Sandy Soil",
+        "description": "Soil with large particles that drains quickly. Ideal for drought-tolerant plants.",
+        "benefits": "Prevents root rot but may require more frequent watering.",
+        "usage": "Best for plants that need well-drained conditions.",
+        "tips": "Mix with organic matter to improve moisture retention.",
+        "careInstructions": "Water regularly during dry spells.",
+        "image": "https://example.com/path/to/sandy-soil-image.jpg"
+      },
+      {
+        "id": 11,
+        "name": "Bonsai Soil",
+        "description": "Specially formulated soil for bonsai trees. Provides excellent drainage and aeration.",
+        "benefits": "Helps maintain small root systems and prevents overwatering.",
+        "usage": "Use for potted bonsai trees.",
+        "tips": "Repot every couple of years to refresh soil.",
+        "careInstructions": "Keep soil slightly moist; do not let it dry out completely.",
+        "image": "https://example.com/path/to/bonsai-soil-image.jpg"
+      },
+      {
+        "id": 12,
+        "name": "Hydroponic Growing Medium",
+        "description": "Soil-less medium for hydroponic systems. Supports plant roots and retains moisture.",
+        "benefits": "Promotes faster growth rates and reduces soil-borne diseases.",
+        "usage": "Use in hydroponic setups.",
+        "tips": "Regularly check nutrient solution levels.",
+        "careInstructions": "Change nutrient solution every 2-3 weeks.",
+        "image": "https://example.com/path/to/hydroponic-growing-medium-image.jpg"
+      },
+      {
+        "id": 13,
+        "name": "Potting Mix",
+        "description": "Pre-mixed soil designed for container gardening. Contains organic matter, peat moss, and perlite.",
+        "benefits": "Lightweight and well-draining, ideal for most potted plants.",
+        "usage": "Use in pots and containers.",
+        "tips": "Choose a mix appropriate for your specific plants.",
+        "careInstructions": "Keep evenly moist, but not soggy.",
+        "image": "https://example.com/path/to/potting-mix-image.jpg"
+      },
+      {
+        "id": 14,
+        "name": "Mulch",
+        "description": "Organic material applied to the soil surface. Helps retain moisture and suppress weeds.",
+        "benefits": "Improves soil health as it breaks down.",
+        "usage": "Spread around plants in garden beds.",
+        "tips": "Replenish mulch layer as it decomposes.",
+        "careInstructions": "Keep mulch away from plant stems.",
+        "image": "https://example.com/path/to/mulch-image.jpg"
+      },
+      {
+        "id": 15,
+        "name": "Bark Mulch",
+        "description": "Natural mulch made from shredded tree bark. Excellent for moisture retention.",
+        "benefits": "Reduces weed growth and regulates soil temperature.",
+        "usage": "Use around trees and shrubs.",
+        "tips": "Choose hardwood bark for longer-lasting results.",
+        "careInstructions": "Reapply every year or two.",
+        "image": "https://example.com/path/to/bark-mulch-image.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Compost Blend",
+        "description": "A mixture of composted organic materials. Enriches soil with nutrients.",
+        "benefits": "Improves soil structure and fertility.",
+        "usage": "Mix into garden beds or potted plants.",
+        "tips": "Use well-aged compost for best results.",
+        "careInstructions": "Avoid over-applying to prevent nutrient burn.",
+        "image": "https://example.com/path/to/compost-blend-image.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Perlite",
+        "description": "Lightweight volcanic rock used to improve soil aeration and drainage.",
+        "benefits": "Prevents soil compaction and enhances root growth.",
+        "usage": "Mix into potting soil or garden beds.",
+        "tips": "Do not use alone; combine with other soils.",
+        "careInstructions": "Keep dry before mixing with soil.",
+        "image": "https://example.com/path/to/perlite-image.jpg"
+      },
+      {
+        "id": 18,
+        "name": "Vermiculite",
+        "description": "Natural mineral that improves soil aeration and moisture retention.",
+        "benefits": "Helps seeds germinate and young plants establish roots.",
+        "usage": "Mix into potting soil or seed starting mixes.",
+        "tips": "Use in conjunction with peat or compost.",
+        "careInstructions": "Store in a dry place.",
+        "image": "https://example.com/path/to/vermiculite-image.jpg"
+      },
+      {
+        "id": 19,
+        "name": "Coir (Coconut Fiber)",
+        "description": "Natural fiber extracted from coconut husks. Retains moisture and promotes aeration.",
+        "benefits": "Sustainable alternative to peat moss.",
+        "usage": "Use in potting mixes or as a mulch.",
+        "tips": "Rehydrate coir before use.",
+        "careInstructions": "Keep moist, especially for seedlings.",
+        "image": "https://example.com/path/to/coir-image.jpg"
+      },
+      {
+        "id": 20,
+        "name": "Gravel",
+        "description": "Small stones used for drainage in potted plants or garden beds.",
+        "benefits": "Prevents water from pooling and causing root rot.",
+        "usage": "Layer at the bottom of pots or mix into soil.",
+        "tips": "Use in heavy soils that retain too much moisture.",
+        "careInstructions": "Check for clogging in drainage holes.",
+        "image": "https://example.com/path/to/gravel-image.jpg"
+      }
+    ],
+    "fertilizers": [
+      {
+        "id": 1,
+        "name": "Organic Fertilizer",
+        "description": "Fertilizer made from plant waste, enhances soil nutrients. Contains a variety of micro and macronutrients.",
+        "benefits": "Slow-release, improving soil health and plant growth over time.",
+        "usage": "Apply every 4-6 weeks during the growing season.",
+        "tips": "Use in combination with mulch for best results.",
+        "careInstructions": "Water after application to activate the nutrients.",
+        "image": "https://example.com/path/to/organic-fertilizer-image.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Chemical Fertilizer",
+        "description": "Synthetic fertilizer, provides nutrients quickly to plants. Formulated to deliver specific nutrients like nitrogen, phosphorus, and potassium.",
+        "benefits": "Fast-acting and effective for immediate plant needs.",
+        "usage": "Use as directed, usually every 6-8 weeks.",
+        "tips": "Dilute as instructed to avoid burning plants.",
+        "careInstructions": "Monitor plant health closely after application.",
+        "image": "https://example.com/path/to/chemical-fertilizer-image.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Fish Emulsion Fertilizer",
+        "description": "Organic liquid fertilizer made from fish waste. Rich in nitrogen and trace minerals.",
+        "benefits": "Encourages lush green growth and strong root development.",
+        "usage": "Dilute with water and apply every 2-4 weeks.",
+        "tips": "Use on all plants, especially during the growing season.",
+        "careInstructions": "Store in a cool, dark place to maintain freshness.",
+        "image": "https://example.com/path/to/fish-emulsion-fertilizer-image.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Bone Meal Fertilizer",
+        "description": "Organic fertilizer made from ground animal bones. Provides a slow-release source of phosphorus.",
+        "benefits": "Supports root development and flowering.",
+        "usage": "Apply during planting or as a side dressing.",
+        "tips": "Mix into the soil for best results.",
+        "careInstructions": "Keep away from pets as it may attract them.",
+        "image": "https://example.com/path/to/bone-meal-fertilizer-image.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Kelp Fertilizer",
+        "description": "Liquid fertilizer derived from seaweed. Rich in micronutrients and growth hormones.",
+        "benefits": "Stimulates plant growth and enhances disease resistance.",
+        "usage": "Dilute and spray on plants every 2-4 weeks.",
+        "tips": "Use in combination with other fertilizers for best results.",
+        "careInstructions": "Store in a cool, dark place.",
+        "image": "https://example.com/path/to/kelp-fertilizer-image.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Slow-Release Granular Fertilizer",
+        "description": "Granular fertilizer that releases nutrients slowly over time. Ideal for continuous feeding.",
+        "benefits": "Reduces the risk of nutrient burn and provides steady nutrition.",
+        "usage": "Apply every 8-12 weeks, depending on the formulation.",
+        "tips": "Water well after application to activate the granules.",
+        "careInstructions": "Keep in a dry place to prevent clumping.",
+        "image": "https://example.com/path/to/slow-release-fertilizer-image.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Alfalfa Meal Fertilizer",
+        "description": "Organic fertilizer made from alfalfa plants. Contains natural growth hormones.",
+        "benefits": "Promotes vigorous plant growth and improves soil structure.",
+        "usage": "Mix into soil before planting or as a side dressing.",
+        "tips": "Use in moderation to avoid over-fertilizing.",
+        "careInstructions": "Keep away from pets.",
+        "image": "https://example.com/path/to/alfalfa-meal-fertilizer-image.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Sulfur Fertilizer",
+        "description": "Elemental sulfur used to lower soil pH. Important for plants that thrive in acidic soils.",
+        "benefits": "Improves nutrient uptake in acid-loving plants.",
+        "usage": "Apply as needed based on soil pH testing.",
+        "tips": "Mix thoroughly into the soil for even distribution.",
+        "careInstructions": "Store in a dry place.",
+        "image": "https://example.com/path/to/sulfur-fertilizer-image.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Wood Ash Fertilizer",
+        "description": "Natural fertilizer made from burned wood. Rich in potassium and trace minerals.",
+        "benefits": "Enhances soil fertility and can help control pests.",
+        "usage": "Sprinkle on the soil surface or mix into the soil.",
+        "tips": "Use sparingly, as too much can raise soil pH.",
+        "careInstructions": "Keep in a dry place.",
+        "image": "https://example.com/path/to/wood-ash-fertilizer-image.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Compost Tea",
+        "description": "Liquid fertilizer made by steeping compost in water. Rich in nutrients and beneficial microorganisms.",
+        "benefits": "Boosts plant health and promotes microbial activity in soil.",
+        "usage": "Dilute and apply as a foliar spray or soil drench.",
+        "tips": "Use fresh compost for the best results.",
+        "careInstructions": "Store in a cool, dark place and use within a week.",
+        "image": "https://example.com/path/to/compost-tea-image.jpg"
+      },
+      {
+        "id": 11,
+        "name": "Seaweed Extract",
+        "description": "Organic liquid fertilizer derived from seaweed. Rich in micronutrients.",
+        "benefits": "Stimulates plant growth and improves resistance to pests.",
+        "usage": "Dilute and spray on plants every 2-4 weeks.",
+        "tips": "Use as a foliar feed for quick nutrient uptake.",
+        "careInstructions": "Store in a cool, dark place.",
+        "image": "https://example.com/path/to/seaweed-extract-image.jpg"
+      },
+      {
+        "id": 12,
+        "name": "Bat Guano Fertilizer",
+        "description": "Organic fertilizer made from bat droppings. High in nitrogen and phosphorus.",
+        "benefits": "Encourages vigorous growth and flowering.",
+        "usage": "Mix into soil before planting or as a side dressing.",
+        "tips": "Use in moderation to avoid nutrient burn.",
+        "careInstructions": "Store in a dry place.",
+        "image": "https://example.com/path/to/bat-guano-fertilizer-image.jpg"
+      },
+      {
+        "id": 13,
+        "name": "Plant-Based Fertilizer",
+        "description": "Fertilizer made from plant materials. Provides a balanced nutrient profile.",
+        "benefits": "Eco-friendly option for improving soil health.",
+        "usage": "Apply as needed throughout the growing season.",
+        "tips": "Combine with other amendments for best results.",
+        "careInstructions": "Keep in a dry, cool place.",
+        "image": "https://example.com/path/to/plant-based-fertilizer-image.jpg"
+      },
+      {
+        "id": 14,
+        "name": "Granular Organic Fertilizer",
+        "description": "Slow-release fertilizer made from organic materials. Provides nutrients over time.",
+        "benefits": "Supports long-term plant health and growth.",
+        "usage": "Apply as directed, usually every 6-8 weeks.",
+        "tips": "Water well after application.",
+        "careInstructions": "Store in a dry place to prevent clumping.",
+        "image": "https://example.com/path/to/granular-organic-fertilizer-image.jpg"
+      },
+      {
+        "id": 15,
+        "name": "High-Phosphorus Fertilizer",
+        "description": "Fertilizer designed to boost flowering and fruiting. High in phosphorus.",
+        "benefits": "Encourages strong blooms and healthy fruit development.",
+        "usage": "Apply during the flowering stage of plants.",
+        "tips": "Do not over-apply; follow instructions carefully.",
+        "careInstructions": "Store in a cool, dry place.",
+        "image": "https://example.com/path/to/high-phosphorus-fertilizer-image.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Liquid Fertilizer",
+        "description": "Water-soluble fertilizer for quick nutrient absorption. Easy to use for container plants.",
+        "benefits": "Provides immediate nutrients for rapid growth.",
+        "usage": "Dilute with water and apply every 2-4 weeks.",
+        "tips": "Monitor plants closely after application.",
+        "careInstructions": "Store in a cool, dark place.",
+        "image": "https://example.com/path/to/liquid-fertilizer-image.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Nettle Fertilizer",
+        "description": "Organic fertilizer made from nettle plants. Rich in nitrogen and beneficial for leafy greens.",
+        "benefits": "Promotes healthy leaf growth and pest resistance.",
+        "usage": "Dilute and use as a foliar spray or soil drench.",
+        "tips": "Use gloves when handling nettle.",
+        "careInstructions": "Store in a cool, dark place.",
+        "image": "https://example.com/path/to/nettle-fertilizer-image.jpg"
+      },
+      {
+        "id": 18,
+        "name": "Citrus Fertilizer",
+        "description": "Specially formulated fertilizer for citrus plants. High in potassium and magnesium.",
+        "benefits": "Enhances fruit production and flavor.",
+        "usage": "Apply every 4-6 weeks during the growing season.",
+        "tips": "Water well after application.",
+        "careInstructions": "Store in a dry place.",
+        "image": "https://example.com/path/to/citrus-fertilizer-image.jpg"
+      },
+      {
+        "id": 19,
+        "name": "Dried Blood Fertilizer",
+        "description": "Organic fertilizer made from dried animal blood. High in nitrogen.",
+        "benefits": "Promotes rapid plant growth and greening.",
+        "usage": "Mix into soil or use as a top dressing.",
+        "tips": "Use gloves when handling.",
+        "careInstructions": "Keep away from pets.",
+        "image": "https://example.com/path/to/dried-blood-fertilizer-image.jpg"
+      },
+      {
+        "id": 20,
+        "name": "Compost Starter",
+        "description": "Accelerates composting process by adding beneficial microorganisms.",
+        "benefits": "Helps create nutrient-rich compost quickly.",
+        "usage": "Add to compost pile when starting a new batch.",
+        "tips": "Maintain moisture in compost pile.",
+        "careInstructions": "Store in a cool, dry place.",
+        "image": "https://example.com/path/to/compost-starter-image.jpg"
+      }
+    ]
+  }
+  
