@@ -9,7 +9,7 @@ function BodyHeader() {
                     {/* Logo và tên thương hiệu */}
                     <Link to="/" className="navbar-brand d-flex align-items-center">
                         <img
-                            src="/LogoGreenGroves.jpg"
+                            src={`${process.env.PUBLIC_URL}/LogoGreenGroves.jpg`}
                             alt="Green Groves Logo"
                             className="logo"
                         />
@@ -41,7 +41,7 @@ function BodyHeader() {
                                 </Link>
                                 <ul className="dropdown-menu">
                                     <li><Link className="dropdown-item" to="/AvsG">Articles & Guides</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Improvement Tips</Link></li>
+                                    <li><Link className="dropdown-item" to="/Tips">Improvement Tips</Link></li>
                                     <li><Link className="dropdown-item" to="/ToolsList">Tool List</Link></li>
                                 </ul>
                             </li>
@@ -60,7 +60,7 @@ function BodyHeader() {
                                     Pots &amp; Accessories
                                 </a>
                                 <ul className="dropdown-menu" aria-labelledby="containersDropdown">
-                                    <li><a className="dropdown-item" href="#">Pots &amp; Containers</a></li>
+                                    <li><Link className="dropdown-item" to="/ListPAC">Pots &amp; Containers</Link></li>
                                     <li><a className="dropdown-item" href="#">Accessories</a></li>
                                     <li><a className="dropdown-item" href="#">Decorative Rocks</a></li>
                                 </ul>

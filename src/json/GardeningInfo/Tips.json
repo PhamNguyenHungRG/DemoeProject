@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "title": "Understand Your Soil",
+      "description": "...",
+      "tips": "Test soil pH: Knowing the pH of your soil helps you choose the right plants. For example, citrus trees prefer acidic soil, while plants like tomatoes thrive in neutral soil. Use organic compost: Organic compost improves soil structure and provides nutrients for plants.",
+      "image": "https://whittierfertilizer.com/wp-content/uploads/2015/02/potting-soil.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Watering the Right Way",
+      "description": "...",
+      "tips": "Water in the early morning or late evening to minimize water loss through evaporation. Avoid watering the leaves as this can lead to fungal diseases. Instead, water at the base of the plant to allow moisture to penetrate the soil.",
+      "image": "https://www.gardenersnet.com/wp-content/uploads/elementor/thumbs/watering-cucumber-seedlings-in-the-garden-nominated_t20_09J0mv-q0linppq4nyjz0nlmnxdqjdtku8owqz0w65yaeoglc.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Choose the Right Plants",
+      "description": "...",
+      "tips": "Select plants suited to the climate and light conditions of your area. Plants that need a lot of sunlight, like tomatoes or water spinach, should be planted in well-lit areas. Practice companion planting: Some plants can support each other’s growth and help ward off pests. For instance, planting basil with tomatoes can help repel harmful insects.",
+      "image": "https://cdn.prod.website-files.com/65a50d8fa02db283baede5c8/65b7eb8fe8abc3923f882748_pexels-photo-9414044.jpeg"
+    },
+    {
+      "id": 4,
+      "title": "Natural Pest Control",
+      "description": "...",
+      "tips": "Use natural pesticides like garlic water, chili water, or insecticidal soap to control pests without harming your plants. Plant flowers to attract beneficial insects like butterflies and bees, which aid in pollination.",
+      "image": "https://www.agrivi.com/wp-content/uploads/2016/07/Blog-Natural-pest-control-1200x565.png"
+    },
+    {
+      "id": 5,
+      "title": "Plan Crop Rotation",
+      "description": "...",
+      "tips": "Rotate crops to prevent soil nutrient depletion and reduce the risk of diseases. For example, after growing leafy greens, you can plant legumes to enrich the soil.",
+      "image": "https://cdn.mos.cms.futurecdn.net/GDbbbXxidXLdvpkcLmVrDY-415-80.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Prune Properly",
+      "description": "...",
+      "tips": "Prune your plants regularly to encourage healthy growth and prevent disease. For fruit trees, remove weak or diseased branches so that the tree can focus its energy on healthy ones.",
+      "image": "https://treenewal.com/wp-content/uploads/2020/04/purning_trees.png"
+    },
+    {
+      "id": 7,
+      "title": "Utilize Kitchen Waste",
+      "description": "...",
+      "tips": "Compost vegetable peels, dry leaves, and used coffee grounds to create organic fertilizer for your garden. This helps enrich the soil and reduces household waste.",
+      "image": "https://www.homebiogas.com/wp-content/uploads/2023/09/shutterstock_1728605836.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Use Mulch",
+      "description": "...",
+      "tips": "Apply straw, dry leaves, or bark as a mulch around your plants to retain moisture, suppress weeds, and protect the soil from erosion. Mulch also helps maintain a stable temperature for plant roots.",
+      "image": "https://static01.nyt.com/images/2022/05/08/realestate/04garden-mulch4/merlin_206268453_8fb433ac-85f0-42a6-8b9a-2ab414882e25-superJumbo.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Use Pots for Sensitive Plants",
+      "description": "...",
+      "tips": "For plants that require special conditions, like roses or orchids, you can grow them in pots to better control water and soil conditions.",
+      "image": "https://hpj.com/wp-content/uploads/2023/09/iStock-1352169049.jpg"
+    }
+  ]
+  

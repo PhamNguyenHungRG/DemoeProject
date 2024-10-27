@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "name": "Terracotta Pot",
+      "category": "Pots",
+      "imgUrl": "https://www.faroutfinds.com/cdn/shop/files/PXL_20230920_191051223.jpg?v=1697305915&width=1946",
+      "description": "A classic terracotta pot, perfect for plants that need well-drained soil.",
+      "size": "Medium",
+      "price": "$15"
+    },
+    {
+      "id": 2,
+      "name": "Plastic Container",
+      "category": "Containers",
+      "imgUrl": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-m05cpgvxtpjj5d",
+      "description": "Lightweight and durable, ideal for balcony gardening.",
+      "size": "Large",
+      "price": "$10"
+    }
+  ]
+  

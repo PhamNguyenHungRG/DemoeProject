@@ -1,27 +1,21 @@
 import React, { useState } from 'react';
 import Tools from '../../../json/GardeningInfo/ToolsList/Tools.json'; // Thay đổi đường dẫn nếu cần
 import { Link } from 'react-router-dom';
-const ProductsPerPage = 9; // Số sản phẩm hiển thị trên mỗi trang
+
+const ProductsPerPage = 9;
 
 function ProductSuggestion() {
     const [currentPage, setCurrentPage] = useState(1);
-    const [selectedCategory, setSelectedCategory] = useState('All'); // Trạng thái để lưu category đã chọn
+    const [selectedCategory, setSelectedCategory] = useState('All');
 
-    // Lọc sản phẩm có rating >= 4
     const highRatedTools = Tools.filter(tool => tool.rating >= 4);
-
-    // Lấy danh sách các category duy nhất
     const categories = ['All', ...new Set(highRatedTools.map(tool => tool.category))];
 
-    // Lọc sản phẩm theo category đã chọn và rating >= 4
     const filteredTools = selectedCategory === 'All' 
         ? highRatedTools 
         : highRatedTools.filter(tool => tool.category === selectedCategory);
 
-    // Tính toán số lượng trang
     const totalPages = Math.ceil(filteredTools.length / ProductsPerPage);
-
-    // Xác định các sản phẩm cần hiển thị cho trang hiện tại
     const indexOfLastTool = currentPage * ProductsPerPage;
     const indexOfFirstTool = indexOfLastTool - ProductsPerPage;
     const currentTools = filteredTools.slice(indexOfFirstTool, indexOfLastTool);
@@ -32,50 +26,30 @@ function ProductSuggestion() {
 
     const handleCategoryChange = (category) => {
         setSelectedCategory(category);
-        setCurrentPage(1); // Đặt lại trang về 1 khi thay đổi category
+        setCurrentPage(1);
     };
 
-    // Hàm để hiển thị các ngôi sao dựa trên rating với số lẻ
     const renderStars = (rating) => {
-        const fullStars = Math.floor(rating); // Số ngôi sao đầy
-        const hasHalfStar = rating - fullStars >= 0.5; // Có ngôi sao nửa hay không
+        const fullStars = Math.floor(rating);
+        const hasHalfStar = rating - fullStars >= 0.5;
         const totalStars = 5;
 
         const stars = [];
-
-        // Thêm ngôi sao đầy
         for (let i = 0; i < fullStars; i++) {
             stars.push(
-                <i 
-                    key={i} 
-                    className="bi bi-star-fill" 
-                    style={{ color: '#ffc107', fontSize: '0.8rem', marginRight: '0.1rem' }} // Kích thước nhỏ hơn
-                ></i>
+                <i key={i} className="bi bi-star-fill" style={{ color: '#ffc107', fontSize: '0.8rem', marginRight: '0.1rem' }}></i>
             );
         }
-
-        // Thêm ngôi sao nửa nếu cần
         if (hasHalfStar) {
             stars.push(
-                <i 
-                    key="half" 
-                    className="bi bi-star-half" 
-                    style={{ color: '#ffc107', fontSize: '0.8rem', marginRight: '0.1rem' }} // Kích thước nhỏ hơn
-                ></i>
+                <i key="half" className="bi bi-star-half" style={{ color: '#ffc107', fontSize: '0.8rem', marginRight: '0.1rem' }}></i>
             );
         }
-
-        // Thêm ngôi sao trống
         for (let i = fullStars + (hasHalfStar ? 1 : 0); i < totalStars; i++) {
             stars.push(
-                <i 
-                    key={i + fullStars} 
-                    className="bi bi-star" 
-                    style={{ color: '#ffc107', fontSize: '0.8rem', marginRight: '0.1rem' }} // Kích thước nhỏ hơn
-                ></i>
+                <i key={i + fullStars} className="bi bi-star" style={{ color: '#ffc107', fontSize: '0.8rem', marginRight: '0.1rem' }}></i>
             );
         }
-
         return stars;
     };
 
@@ -83,7 +57,6 @@ function ProductSuggestion() {
         <div className="container my-5">
             <h2 className="text-center mb-4" style={{ color: '#2E8B57' }}>Recommended Products</h2>
             <div className="row">
-                {/* Sidebar phân loại */}
                 <div className="col-md-3 animate__animated animate__fadeInLeft" style={{ animationDuration: '1s' }}>
                     <h5 className="mb-3" style={{ color: '#2E8B57' }}>Categories</h5>
                     <ul className="list-group">
@@ -100,7 +73,6 @@ function ProductSuggestion() {
                     </ul>
                 </div>
                 
-                {/* Nội dung sản phẩm */}
                 <div className="col-md-9">
                     <div className="row">
                         {currentTools.map(tool => (
@@ -111,7 +83,7 @@ function ProductSuggestion() {
                                         alt={tool.name} 
                                         className="card-img-top" 
                                         style={{ 
-                                            height: '200px', // Kích thước hình ảnh nhỏ hơn
+                                            height: '200px',
                                             width: '100%', 
                                             objectFit: 'cover', 
                                             borderTopLeftRadius: '.25rem', 
@@ -122,8 +94,8 @@ function ProductSuggestion() {
                                         <h5 className="card-title text-primary">{tool.name}</h5>
                                         <p className="card-text text-muted">{tool.category}</p>
                                         <p className="card-text d-flex align-items-center">
-                                            {renderStars(tool.rating)} {/* Hiển thị các ngôi sao */}
-                                            <span style={{ fontSize: '0.8rem', marginLeft: '0.5rem', color: '#2E8B57' }}>{tool.rating}</span> {/* Hiển thị số rating */}
+                                            {renderStars(tool.rating)}
+                                            <span style={{ fontSize: '0.8rem', marginLeft: '0.5rem', color: '#2E8B57' }}>{tool.rating}</span>
                                         </p>
                                         <Link to={`/ToolsDetail/${tool.ID}`} className="btn btn-success mt-auto">View Details</Link>
                                     </div>
@@ -131,11 +103,26 @@ function ProductSuggestion() {
                             </div>
                         ))}
                     </div>
-                    <nav>
-                        <ul className="pagination justify-content-center">
+
+                    {/* Phân trang */}
+                    <nav className="mt-4">
+                        <ul className="pagination justify-content-center" style={{ gap: '10px' }}>
                             {[...Array(totalPages)].map((_, index) => (
-                                <li key={index} className={`page-item ${currentPage === index + 1 ? 'active' : ''}`}>
-                                    <button className="page-link" onClick={() => handlePageChange(index + 1)}>
+                                <li key={index + 1} className={`page-item ${currentPage === index + 1 ? 'active' : ''}`}>
+                                    <button 
+                                        className="page-link" 
+                                        onClick={() => handlePageChange(index + 1)}
+                                        style={{
+                                            backgroundColor: currentPage === index + 1 ? '#4CAF50' : '#e6ffe6', 
+                                            color: currentPage === index + 1 ? '#fff' : '#4CAF50',
+                                            borderColor: '#4CAF50',
+                                            borderRadius: '50%',
+                                            width: '40px',
+                                            height: '40px',
+                                            boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+                                            fontSize: '16px'
+                                        }}
+                                    >
                                         {index + 1}
                                     </button>
                                 </li>

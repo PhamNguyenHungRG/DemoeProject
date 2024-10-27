@@ -22,21 +22,19 @@ function ListSF() {
     const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
     return (
-        <div style={{ marginTop: '20px', padding: '20px' }}>
+        <div className="container mt-4">
             <div className="row">
-                <div className="col-md-3 mb-3">
+                <div className="col-md-3 mb-4">
                     <h5 className="text-center">Select Type</h5>
-                    <div className="d-flex flex-column">
+                    <div className="btn-group-vertical w-100" role="group">
                         <button 
-                            className="btn mb-2" 
-                            style={{ backgroundColor: type === 'soil' ? '#4CAF50' : '#6c757d', color: '#fff' }} 
+                            className={`btn ${type === 'soil' ? 'btn-success' : 'btn-outline-secondary'}`} 
                             onClick={() => setType('soil')}
                         >
                             Soil
                         </button>
                         <button 
-                            className="btn" 
-                            style={{ backgroundColor: type === 'fertilizers' ? '#4CAF50' : '#6c757d', color: '#fff' }} 
+                            className={`btn ${type === 'fertilizers' ? 'btn-success' : 'btn-outline-secondary'}`} 
                             onClick={() => setType('fertilizers')}
                         >
                             Fertilizers
@@ -44,29 +42,26 @@ function ListSF() {
                     </div>
                 </div>
                 <div className="col-md-9">
-                    <h2 className="text-center mb-3">
+                    <h2 className="text-center mb-4">
                         {type === 'soil' ? 'Types of Soil' : 'Types of Fertilizers'}
                     </h2>
-                    <div className="row">
+                    <div className="row g-4">
                         {currentItems.map(item => (
-                            <div key={item.id} className="col-md-4 mb-4">
-                                <div 
-                                    className="card" 
-                                    style={{ boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', borderRadius: '10px' }}
-                                >
+                            <div key={item.id} className="col-md-6 col-lg-4">
+                                <div className="card h-100 shadow-sm">
                                     <img 
                                         src={item.image} 
                                         alt={item.name} 
                                         className="card-img-top" 
-                                        style={{ height: '200px', objectFit: 'cover', borderTopLeftRadius: '10px', borderTopRightRadius: '10px' }}
+                                        style={{ height: '200px', objectFit: 'cover' }}
+                                        loading="lazy"
                                     />
                                     <div className="card-body">
-                                        <h5 className="card-title" style={{ color: '#4b8a29' }}>{item.name}</h5>
+                                        <h5 className="card-title text-success">{item.name}</h5>
                                         <p className="card-text">{item.description}</p>
                                         <Link 
-                                            className="btn btn-info" 
+                                            className="btn btn-success" 
                                             to={`/DetailsSL/${type}/${item.id}`}
-                                            style={{ backgroundColor: '#4CAF50', borderColor: '#4CAF50' }}
                                         >
                                             Detail
                                         </Link>
@@ -76,17 +71,22 @@ function ListSF() {
                         ))}
                     </div>
                     {/* Pagination */}
-                    <nav aria-label="Page navigation">
-                        <ul className="pagination justify-content-center">
+                    <nav className="mt-4">
+                        <ul className="pagination justify-content-center" style={{ gap: '10px' }}>
                             {[...Array(totalPages)].map((_, index) => (
                                 <li key={index + 1} className={`page-item ${currentPage === index + 1 ? 'active' : ''}`}>
                                     <button 
                                         className="page-link" 
                                         onClick={() => paginate(index + 1)}
                                         style={{
-                                            backgroundColor: currentPage === index + 1 ? '#4CAF50' : '#fff',
+                                            backgroundColor: currentPage === index + 1 ? '#4CAF50' : '#e6ffe6', 
                                             color: currentPage === index + 1 ? '#fff' : '#4CAF50',
-                                            borderColor: '#4CAF50'
+                                            borderColor: '#4CAF50',
+                                            borderRadius: '50%',
+                                            width: '40px',
+                                            height: '40px',
+                                            boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+                                            fontSize: '16px'
                                         }}
                                     >
                                         {index + 1}
