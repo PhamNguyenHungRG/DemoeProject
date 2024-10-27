@@ -1,3 +1,16 @@
+# Group Information
+
+- **Group Name:** Group 4
+- **Group Members:**
+  - Phạm Nguyễn Hưng - Student1576000
+  - Dương Quang Khang - Student1580659
+  - Phạm Huy Thiện - Student1575529
+- **Documents reports:** [Link](https://github.com/PhamNguyenHungRG/DemoeProject/tree/main/Documents)
+- **Data Test:** [Link](https://github.com/PhamNguyenHungRG/DemoeProject/tree/main/src/json)
+- **Project demonstration video:** [Link Drive](https://drive.google.com/drive/folders/1mfZNoq9Ut-dH4Y5m6l0GLaF3MJ0yd36L?usp=sharing)
+- **Run the website:** [Click here to view](https://phamnguyenhungrg.github.io/DemoeProject/)
+
+---
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
